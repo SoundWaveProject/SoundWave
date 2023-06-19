@@ -10,6 +10,16 @@
 :root {
   --body-color: #2f303a;
   --font-color: white;
+  --dark-background-color: #211F27;
+  --nav-hover: #ADADAD;
+  --accent-text: #D3007B;
+  --border-input: #2E3852;
+  --border-input-focus: #596DA0;
+  --button-background: #1762A7;
+  --button-hover: #2180D8;
+  --button-focus: #2796FF;
+  --circle-one: #BC3A801A;
+  --circle-two: #3457B21A;
 }
 
 body {

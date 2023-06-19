@@ -1,11 +1,11 @@
-import "./Main.css";
+import "./MainHome.css";
 import img from "../../assets/landing-page-girl.png" 
 
 export default function Main() {
     return ( 
         <div className="main-container">
             <div className="img-principal">
-                <img src= {img} alt="imagen principal, mujer de perfil " />
+                <img src= {img} alt="imagen principal, mujer de perfil" />
             </div>
 
             <div className="container-title-btn">
