@@ -22,3 +22,9 @@
 .links:hover{
     color: var(--nav-hover);
 }
+
+@media screen and (max-width: 768px) {
+    .header {
+        justify-content: space-between;
+    }
+}
