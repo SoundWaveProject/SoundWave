@@ -1,0 +1,7 @@
+.discover-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 30vh;
+    width: 100vw;
+}
