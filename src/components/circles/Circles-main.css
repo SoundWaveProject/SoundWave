@@ -1,0 +1,26 @@
+.circle-one {
+    background-color: var(--circle-one);
+    height: 31.25rem;
+    width: 31.25rem;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 50px;
+    left: -200px;
+}
+
+.circle-two {
+    background-color: var(--circle-two);
+    height: 31.25rem;
+    width: 31.25rem;
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1;
+    top: -235px;
+    left: 175px;
+}
+
+@media only screen and (min-width:390px) and (max-width:768px) {
+    .circle-one, .circle-two {
+        display: none;
+    }
+}

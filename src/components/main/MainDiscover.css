@@ -1,0 +1,11 @@
+.maindiscover-container {
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    gap: 2rem;
+}
+
+.covers-img {
+    width: 16rem;
+    height: 16rem;
+}
