@@ -8,16 +8,16 @@ export default function MainDiscover(){
     return(
         <div className="maindiscover-container">
         <div className="text-container">
-            <h3>Discover new music</h3>
+            <h3 className="title-box">Discover new music</h3>
             <div className="icons-container">
-                <img src= {Charts}  alt="Icono microfono" />
-                <img src= {Albums}  alt="Icono Albums" />
-                <img src= {More}  alt="Icono More" />
+                <img className="icon" src= {Charts}  alt="Icono microfono" />
+                <img className="icon" src= {Albums}  alt="Icono Albums" />
+                <img className="icon" src= {More}  alt="Icono More" />
             </div>
-            <p>By joing you can benefit by listening to the latest albums released</p>
+            <p className="subtitle-box">By joing you can benefit by listening to the latest albums released</p>
         </div>
-        <div className="covers-img">
-            <img src= {Covers} alt="Covers" />
+        <div>
+            <img className="covers-img" src= {Covers} alt="Covers" />
         </div>
         </div>
     )  
