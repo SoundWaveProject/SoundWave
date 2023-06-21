@@ -3,7 +3,7 @@ import Header from "../../components/header/Header"
 import MainHome from "../../components/main/MainHome"
 import CircleOne from "../../components/circles/CircleOne"
 import CircleTwo from "../../components/circles/CircleTwo"
-import CircleThree from "../../components/circles/CircleTwo"
+import CircleThree from "../../components/circles/CircleThree"
 
 export default function Home() {
     return (

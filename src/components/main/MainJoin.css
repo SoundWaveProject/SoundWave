@@ -17,7 +17,7 @@ span {
 }
 
 @media only screen and (max-width:768px) {
-    .main-container {
+    .main-join-container {
         flex-direction: column;
         padding-left: 6rem;
         padding-right: 6rem;
