@@ -1,23 +1,23 @@
 .circle-one-home {
     background-color: var(--circle-one);
-    height: 32rem;
-    width: 32rem;
+    height: 28rem;
+    width: 28rem;
     border-radius: 50%;
     position: absolute;
     z-index: -1;
-    bottom: 50px;
-    left: 140px;
+    bottom: 150px;
+    left: 10px;
 }
 
 .circle-two-home {
     background-color: var(--circle-two);
-    height: 32rem;
-    width: 32rem;
+    height: 28rem;
+    width: 28rem;
     border-radius: 50%;
     position: absolute;
     z-index: -1;
-    top: 150px;
-    left: 550px;
+    top: -140px;
+    left: 375px;
 }
 
 .circle-three-home {
@@ -26,13 +26,9 @@
     width: 50rem;
     border-radius: 50%;
     position: absolute;
-    z-index: 1;
     bottom: -25rem;
     right: -25rem;
-    
 }
-
-
 
 @media only screen and (min-width:390px) and (max-width:768px) {
     .circle-one, .circle-two {

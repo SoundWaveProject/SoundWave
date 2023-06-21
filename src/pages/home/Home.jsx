@@ -1,8 +1,6 @@
 import "../home/Home.css"
 import Header from "../../components/header/Header"
 import MainHome from "../../components/main/MainHome"
-import CircleOneHome from "../../components/circles/CircleOneHome"
-import CircleTwoHome from "../../components/circles/CircleTwoHome"
 import CircleThreeHome from "../../components/circles/CircleThreeHome"
 
 export default function Home() {
@@ -14,8 +12,6 @@ export default function Home() {
 
             <div className="main-container">
                 <MainHome/>
-                <CircleOneHome/>
-                <CircleTwoHome/>
                 <CircleThreeHome/>
             </div>
         </div>
