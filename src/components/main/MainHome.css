@@ -1,10 +1,14 @@
-.main-container{
+.main-home-container{
+    width: 84%;
     height: 100%;
-    width: 100%;
     display: flex;
-    align-items:center;
+    align-items: flex-end;
     justify-content: center;
+}
 
+.img-girl{
+    width: 32rem;
+    height: auto;
 }
 
 .img-principal{
@@ -13,8 +17,43 @@
 }
 
 .container-title-btn{
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 0.60rem;
+
+}
+.title{
+    font-weight: 500;
+    font-size: 3.75rem;
+}
+
+.subtitle{
+    font-weight: 300;
+    font-size: 1.5rem;
+
+}
+
+.link-btn{
+ text-decoration: none;
+ font-size: 1.25rem;
+ color: var(--font-color);
+}
+
+.btn-primary{
+    width: 8rem;
+    height: 4rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: var(--button-background);
+}
+
+.btn-primary:hover{
+    background-color: var(--button-hover);
+}
+
+.btn-primary:focus{
+    background-color: var(--button-focus);
 }
 

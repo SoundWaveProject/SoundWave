@@ -10,7 +10,7 @@ export default function MainJoin() {
     // });
 
     return (
-        <div className="main-container">
+        <div className="main-join-container">
             <div>
                 <p className="main-container-text">Join the <span>fun.</span></p>
             </div>
