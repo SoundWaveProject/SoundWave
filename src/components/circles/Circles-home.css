@@ -1,34 +1,37 @@
-.circle-one {
+.circle-one-home {
     background-color: var(--circle-one);
-    height: 31.25rem;
-    width: 31.25rem;
+    height: 32rem;
+    width: 32rem;
     border-radius: 50%;
     position: absolute;
+    z-index: -1;
     bottom: 50px;
-    left: -200px;
+    left: 140px;
 }
 
-.circle-two {
+.circle-two-home {
     background-color: var(--circle-two);
-    height: 31.25rem;
-    width: 31.25rem;
+    height: 32rem;
+    width: 32rem;
     border-radius: 50%;
     position: absolute;
     z-index: -1;
-    top: -235px;
-    left: 175px;
+    top: 150px;
+    left: 550px;
 }
 
-.circle-three {
+/* .circle-three-home {
     background-color: var(--circle-two);
-    height: 31.25rem;
-    width: 31.25rem;
+    height: 50rem;
+    width: 50rem;
     border-radius: 50%;
     position: absolute;
-    z-index: -1;
-    top: -235px;
-    left: 175px;
-}
+    z-index: 1;
+    top: 500px;
+    bottom:-1200px;
+    left:1500px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 25%, 0% 25%);
+} */
 
 
 
