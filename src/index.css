@@ -26,11 +26,3 @@ body {
   background-color: var(--body-color);
   color: var(--font-color);
 }
-
-/* #root{
-  height: 100%;
-} 
-
-html, body{
-  height: 100%;
-}  */
