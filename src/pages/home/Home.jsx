@@ -3,7 +3,7 @@ import Header from "../../components/header/Header"
 import MainHome from "../../components/main/MainHome"
 import CircleOneHome from "../../components/circles/CircleOneHome"
 import CircleTwoHome from "../../components/circles/CircleTwoHome"
-// import CircleThreeHome from "../../components/circles/CircleThreeHome"
+import CircleThreeHome from "../../components/circles/CircleThreeHome"
 
 export default function Home() {
     return (
@@ -16,7 +16,7 @@ export default function Home() {
                 <MainHome/>
                 <CircleOneHome/>
                 <CircleTwoHome/>
-                {/* <CircleThreeHome/> */}
+                <CircleThreeHome/>
             </div>
         </div>
     )

@@ -20,18 +20,17 @@
     left: 550px;
 }
 
-/* .circle-three-home {
+.circle-three-home {
     background-color: var(--circle-two);
     height: 50rem;
     width: 50rem;
     border-radius: 50%;
     position: absolute;
     z-index: 1;
-    top: 500px;
-    bottom:-1200px;
-    left:1500px;
-    clip-path: polygon(0% 0%, 100% 0%, 100% 25%, 0% 25%);
-} */
+    bottom: -25rem;
+    right: -25rem;
+    
+}
 
 
 

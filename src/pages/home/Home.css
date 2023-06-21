@@ -5,3 +5,8 @@
     height: 100vh;
     width: 100vw;
 }
+
+.main-container {
+    overflow: hidden;
+    position: relative;
+}
