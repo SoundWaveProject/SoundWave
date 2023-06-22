@@ -37,9 +37,9 @@
 }
 
 .link-btn{
- text-decoration: none;
- font-size: 1.25rem;
- color: var(--font-color);
+    text-decoration: none;
+    font-size: 1.25rem;
+    color: var(--font-color);
 }
 
 .btn-primary{
