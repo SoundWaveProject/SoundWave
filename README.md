@@ -19,6 +19,8 @@ SoundWave, se ha posicionado en el mercado como la competencia directa de Spotif
 
 ## Clips
 #### Version Mobile
+[clip_mobile.webm](https://github.com/SoundWaveProject/SoundWave/assets/131767553/da38d29f-dbfe-4a93-8b31-4ef808acfba8)
+
 
 #### Version Desktop
 
