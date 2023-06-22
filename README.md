@@ -1,6 +1,6 @@
 <h1 align="center">
-  <img src="./src/assets/logo.svg" alt= "Logo" width=100px> 
-  <spam align="center">SoundWave</spam>
+  <img src="./src/assets/logo-text.svg" alt= "Logo" width=250px> 
+  <!-- <spam align="center">SoundWave</spam> -->
 </h1>
 
 ## Tabla de contenidos 
