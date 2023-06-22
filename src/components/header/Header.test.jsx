@@ -27,4 +27,16 @@ describe('Header', () => {
 		expect(discoverLink).toBeInTheDocument();
 		expect(joinLink).toBeInTheDocument();
 	});
+
+	test("the links redirects to the correct page", () => {
+		render(
+			<MemoryRouter>
+				<Header />
+			</MemoryRouter>
+		);
+		const discoverLink = screen.getByText('Discover');
+		const joinLink = screen.getByText('Join');
+		expect(discoverLink.href).toBe('http://localhost/discover');
+		expect(joinLink.href).toBe('http://localhost/join');
+	});
 });
