@@ -1,5 +1,5 @@
 import "./Header.css";
-import logo from "../../assets/logo.svg"
+import logo from "../../assets/logo.png"
 import {Link} from "react-router-dom"
 
 
@@ -8,7 +8,7 @@ export default function Header() {
     return (
         <div className="header">
             <div className="logo-container">
-                <img  className="img-logo" src={logo} alt="Logo Sound waves"/>
+                <img  className="img-logo" src={logo} alt="Logo Sound wave"/>
                 <Link to="/" className="links">SoundWave</Link>
             </div>
 
