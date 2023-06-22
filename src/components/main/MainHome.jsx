@@ -20,7 +20,6 @@ export default function Main() {
                     <Link className="link-btn" to="/join">Join Now</Link>
                 </button>
             </div>
-       </div>
-       
+        </div>
     )
 }
