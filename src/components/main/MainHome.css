@@ -1,10 +1,16 @@
-.main-container{
-    height: 100%;
-    width: 100%;
+.main-home-container{
     display: flex;
-    align-items:center;
     justify-content: center;
+    flex: 1;
+    gap: 3.5rem;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
 
+.img-girl{
+    width: 26rem;
+    height: auto;
 }
 
 .img-principal{
@@ -13,8 +19,55 @@
 }
 
 .container-title-btn{
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 0.6rem;
+    margin-top: 120px;
+}
+.title{
+    font-weight: 500;
+    font-size: 3.75rem;
 }
 
+.subtitle{
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.link-btn{
+ text-decoration: none;
+ font-size: 1.25rem;
+ color: var(--font-color);
+}
+
+.btn-primary{
+    width: 8rem;
+    height: 4rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: var(--button-background);
+}
+
+.btn-primary:hover{
+    background-color: var(--button-hover);
+}
+
+.btn-primary:focus{
+    background-color: var(--button-focus);
+}
+
+@media only screen and (max-width:768px) {
+    
+    .img-girl{
+        display: none;
+    } 
+    .subtitle{
+        font-weight: 300;
+        font-size: 1rem;
+    }
+    .container-title-btn{
+        margin-bottom: 285px;
+    }
+}
