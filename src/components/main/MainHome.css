@@ -34,7 +34,6 @@
 .subtitle{
     font-weight: 300;
     font-size: 1.5rem;
-
 }
 
 .link-btn{
@@ -59,7 +58,16 @@
     background-color: var(--button-focus);
 }
 
-/* @media only screen and (max-width:768px) {
+@media only screen and (max-width:768px) {
     
-       
-} */
+    .img-girl{
+        display: none;
+    } 
+    .subtitle{
+        font-weight: 300;
+        font-size: 1rem;
+    }
+    .container-title-btn{
+        margin-bottom: 285px;
+    }
+}

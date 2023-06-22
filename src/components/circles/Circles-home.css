@@ -6,7 +6,7 @@
     position: absolute;
     z-index: -1;
     bottom: 150px;
-    left: -200px;
+    left: 200px;
 }
 
 .circle-two-home {
@@ -17,7 +17,7 @@
     position: absolute;
     z-index: -1;
     top: -140px;
-    left: 150px;
+    left: 550px;
 }
 
 .circle-three-home {
@@ -31,7 +31,26 @@
 }
 
 @media only screen and (min-width:390px) and (max-width:768px) {
-    .circle-one, .circle-two {
-        display: none;
+    .circle-one-home{
+        height: 8rem;
+        width: 8rem;
+        bottom: 92px;
+        left: 36px;
+    }
+
+    .circle-two-home{
+        height: 8rem;
+        width: 8rem; 
+        top: -40px;
+        left: 80px;
+    }
+
+    .circle-three-home{
+        height: 8rem;
+        width: 8rem;
+        top: 677px;
+        left: 305px;
     }
 }
+
+
