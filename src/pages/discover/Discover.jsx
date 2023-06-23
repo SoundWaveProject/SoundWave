@@ -2,8 +2,7 @@ import "./Discover.css"
 import Header from "../../components/header/Header"
 import MainDiscover from "../../components/main/MainDiscover"
 import Footer from "../../components/footer/Footer"
-// import CircleOne from 
-// import CircleTwo from 
+
 
 export default function Discover() {
     return (
@@ -14,8 +13,7 @@ export default function Discover() {
 
             <div>
                 <MainDiscover/>
-                {/* <CircleOne/>
-                <CircleTwo/> */}
+           
             </div>
             <div>
                 <Footer/>
