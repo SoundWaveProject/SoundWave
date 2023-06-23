@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+<h1 align="center">
+  <img src="./src/assets/logo-text.svg" alt= "Logo" width=250px> 
+  <!-- <spam align="center">SoundWave</spam> -->
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Tabla de contenidos 
+   1. [Información General](#información-general)
+   2. [Clips](#clips)
+   3. [Tecnologías](#tecnologías)
+   4. [Herramientas](#herramientas)
+   5. [Instalación](#instalación)
+   6. [Developers](#developers)
 
-## Available Scripts
+## Información General
+SoundWave, se ha posicionado en el mercado como la competencia directa de Spotify. Con una calidad de sonido extraordinaria y la gran variedad de canciones que ofrece está ganando adeptos a pasos agigantados. 
 
-In the project directory, you can run:
+ Nos piden que llevar a cabo el desarrollo de una landing page para buscar nuevos suscriptores. Formas parte de un equipo interdisciplinar donde una UX Designer ya ha construido la maqueta que tendrás que llevar al código.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Clips
+#### Version Mobile
+[clip_mobile.webm](https://github.com/SoundWaveProject/SoundWave/assets/131767553/da38d29f-dbfe-4a93-8b31-4ef808acfba8)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+#### Version Desktop
+[clip_desktop.webm](https://github.com/SoundWaveProject/SoundWave/assets/131767553/0fdc44ef-80de-4fc7-832c-85a905a18cc8)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Tecnologías
+<div> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> 
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="css3" width="40" height="40"/></div>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Herramientas
+<div>
+<img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/>
+<img src="https://w7.pngwing.com/pngs/512/824/png-transparent-visual-studio-code-hd-logo-thumbnail.png" alt="vscode" width="40" heigth="40"/>
+<img src="https://w7.pngwing.com/pngs/115/721/png-transparent-trello-social-icons-icon.png" alt="trello" width="40" heigth="40"/>
+<img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/>
+<img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github" width="40" heigth="40"/> </div>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Instalación
+Este proyecto se ha desarrollado en la version `v18.12.0` o superior de node.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Para instalar las dependencias:
 
-### `npm run eject`
+  `npm install`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Para ejecutar la App en modo desarrollo:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  `npm start`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Para ejecutar los tests unitarios: 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+  `npm run test`
 
-## Learn More
+## Developers
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+[Cindy Leiva](https://github.com/CindyLeiva)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+[Manuela Pérez](https://github.com/mperez-a)
 
-### Code Splitting
+[Rosa Pedret](https://github.com/Rosapedret2)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+[Rosa Rubio](https://github.com/rosa-rubio)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Zoraida Moreno](https://github.com/ZoraidaMorenoCadenas)

@@ -1,20 +1,18 @@
 import "../home/Home.css"
 import Header from "../../components/header/Header"
 import MainHome from "../../components/main/MainHome"
-// import CircleOne from 
-// import CircleTwo from 
+import CircleThreeHome from "../../components/circles/CircleThreeHome"
 
 export default function Home() {
     return (
         <div className="home-container"> 
-            <div>
+            <div className="header-home-container">
                 <Header />
             </div>
 
-            <div>
+            <div className="main-container">
                 <MainHome/>
-                {/* <CircleOne/>
-                <CircleTwo/> */}
+                <CircleThreeHome/>
             </div>
         </div>
     )

@@ -1,0 +1,29 @@
+.main-join-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    padding-left: 7rem;
+    padding-right: 8rem;
+}
+
+.main-container-text {
+    font-size: 5.5rem;
+    font-weight: 700;
+    padding-top: 1rem;
+}
+span {
+    color: var(--accent-text);
+}
+
+@media only screen and (max-width:768px) {
+    .main-join-container {
+        flex-direction: column;
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+    .main-container-text {
+        font-size: 4rem;
+        width: 324px;
+    }    
+}
