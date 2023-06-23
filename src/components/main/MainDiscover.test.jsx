@@ -10,7 +10,7 @@ describe("MainDiscover", () => {
 			<MainDiscover />
 		</MemoryRouter>
 		);
-		const h3Element = screen.getByText(/Discover new music/i);
+		const h3Element = screen.getByText('Discover new music');
 		expect(h3Element).toBeInTheDocument();
 	});
 
@@ -20,7 +20,7 @@ describe("MainDiscover", () => {
 			<MainDiscover />
 		</MemoryRouter>
 		);
-		const pElement = screen.getByText(/By joing you can benefit by listening to the latest albums released/i);
+		const pElement = screen.getByText('By joing you can benefit by listening to the latest albums released');
 		expect(pElement).toBeInTheDocument();
 	});
 

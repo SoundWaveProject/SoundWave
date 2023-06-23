@@ -10,7 +10,7 @@ describe("Footer", () => {
 			<Footer />
 		</MemoryRouter>
 		);
-		const aboutUsElement = screen.getByText(/About Us/i);
+		const aboutUsElement = screen.getByText('About Us');
 		expect(aboutUsElement).toBeInTheDocument();
 	});
 
@@ -20,7 +20,7 @@ describe("Footer", () => {
 			<Footer />
 		</MemoryRouter>
 		);
-		const contactUsElement = screen.getByText(/Contact/i);
+		const contactUsElement = screen.getByText('Contact');
 		expect(contactUsElement).toBeInTheDocument();
 	});
 
@@ -30,8 +30,8 @@ describe("Footer", () => {
 			<Footer />
 		</MemoryRouter>
 		);
-		const facebookElement = screen.getByText(/Facebook/i);
-		const twitterElement = screen.getByText(/Twitter/i);
+		const facebookElement = screen.getByText('Facebook');
+		const twitterElement = screen.getByText('Twitter');
 		expect(facebookElement).toBeInTheDocument();
 		expect(twitterElement).toBeInTheDocument();
 	});

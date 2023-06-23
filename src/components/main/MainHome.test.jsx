@@ -10,7 +10,7 @@ describe("MainHome", () => {
 			<MainHome />
 		</MemoryRouter>
 		);
-		const h1Element = screen.getByText(/Feel The Music/i);
+		const h1Element = screen.getByText('Feel The Music');
 		expect(h1Element).toBeInTheDocument();
 	});
 
@@ -20,7 +20,7 @@ describe("MainHome", () => {
 			<MainHome />
 		</MemoryRouter>
 		);
-		const h4Element = screen.getByText(/Stream over 20 thousand songs with one click/i);
+		const h4Element = screen.getByText('Stream over 20 thousand songs with one click');
 		expect(h4Element).toBeInTheDocument();
 	});
 
@@ -30,7 +30,7 @@ describe("MainHome", () => {
 			<MainHome />
 		</MemoryRouter>
 		);
-		const buttonElement = screen.getByText(/Join Now/i);
+		const buttonElement = screen.getByText('Join Now');
 		expect(buttonElement).toBeInTheDocument();
 	});
 
